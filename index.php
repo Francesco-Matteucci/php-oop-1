@@ -18,8 +18,8 @@
         <?php
         require_once __DIR__ . '/classes/Movie.php';
 
-        $movie1 = new Movie('Interstellar', 'Sci-Fi', 2014, 'Christopher Nolan');
-        $movie2 = new Movie('Harry Potter', 'Fantasy', 2001, 'Chris Columbus');
+        $movie1 = new Movie('Interstellar', ['Sci-Fi', 'Adventure'], 2014, 'Christopher Nolan');
+        $movie2 = new Movie('Harry Potter', ['Fantasy', 'Adventure'], 2001, 'Chris Columbus');
 
         $movies = [$movie1, $movie2];
         ?>
