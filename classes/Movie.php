@@ -1,11 +1,11 @@
 <?php
 class Movie {
-    public $title;
-    public $genre;
-    public $releaseYear;
-    public $director;
+    public string $title;
+    public string $genre;
+    public int $releaseYear;
+    public string $director;
     
-    public function __construct($title, $genre, $releaseYear, $director) {
+    public function __construct(string $title, string $genre, int $releaseYear, string $director) {
         $this->title = $title;
         $this->genre = $genre;
         $this->releaseYear = $releaseYear;
